@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="32dp"
+        android:text="NIM : A11.2019.12293"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/nametextLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="13dp"
+        android:text="Nama : Dhevan Muhamad Anthareza"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/addressTextLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nametextLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="13dp"
+        android:text="Alamat : Jl. Rasamala B2/19, Bringin, Ngalian, Kota Semarang"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/phoneTextLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addressTextLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="13dp"
+        android:text="Telepon : 081226292132"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/emailTextLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phoneTextLabel"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="13dp"
+        android:text="Email : dhevanmuhamad@gmail.com"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="189dp"
+        android:layout_below="@+id/emailTextLabel"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="123dp"
+        app:srcCompat="@drawable/dhvan_photo" />
+
+</RelativeLayout>
