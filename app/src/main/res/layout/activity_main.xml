@@ -65,9 +65,22 @@
         android:layout_below="@+id/emailTextLabel"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="123dp"
         android:layout_marginTop="19dp"
-        android:layout_marginEnd="123dp"
+        android:layout_centerHorizontal="true"
         app:srcCompat="@drawable/dhvan_photo" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="81dp"
+        android:onClick="openResume"
+        android:text="CV Ku" />
 
 </RelativeLayout>
